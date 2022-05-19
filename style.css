@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1500px;
+    height: 700px;
+    margin: 100px auto;
+    display: flex;
+}
+
+.box1, .box2{
+    width: 49%;
+    height: 700px;
+    border: 1px solid black;
+    margin: 0 10px 0 10px;
+    font-size: 30px;
+    padding: 20px;
+    font-family: monospace;
+}
+
+.box2{
+    font-size: 22px;
+}
+
+.login, .pass, .email{
+    margin: 15px 0;
+    width: 70%;
+    height: 35px;
+    border-radius: 5px;
+    border: 0.5px solid lightgray;
+    padding: 0 0 0 10px;
+}
+
+.addUser{
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    background-color: green;
+    color: aliceblue;
+}
+
+.editUser{
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    background-color: yellow;
+    color: black;
+    display: none;
+}
+
+.tr{
+    padding: 5px;
+}
+
+.delete{
+    display: block;
+    height: 40px;
+    width: 100px;
+    border-radius: 4px;
+    background-color: #c70e0e;
+    border: 1px solid rgb(128, 0, 0);
+}
+
+.edit{
+    display: block;
+    height: 40px;
+    width: 100px;
+    border-radius: 4px;
+    background-color: #ecdd0b;
+    border: 1px solid rgb(142, 151, 18);
+}
+
+.ret, .tdB{
+    margin: 2px 10px 0 0;
+    border-top: 1px solid black;
+    padding: 5px;
+}
